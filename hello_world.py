@@ -1,2 +1,2 @@
-#!/usr/bin/env python3
+export PATH=${PATH}:/usr/bin/python3
 print('hello')
