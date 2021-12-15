@@ -3,7 +3,7 @@ agent any
   stages{
     stage("build"){
       steps{
-        echo "Built successfully"
+        python 3 /var/lib/jenkins/workspace/test_suraj/hello.py
       }
     }
     stage("test"){
