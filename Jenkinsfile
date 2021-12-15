@@ -5,7 +5,7 @@ agent any
     stage("build"){
       steps{
         sh "chmod +x -R ${env.WORKSPACE}"
-        sh "python3 /var/lib/jenkins/workspace/test_suraj/hello_world.py"
+        sh "./hello_world.py"
       }
     }
     stage("test"){
