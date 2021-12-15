@@ -4,7 +4,9 @@ agent any
   stages{
     stage("build"){
       steps{
-        sh './hello.py'
+        sh '''#!/bin/sh
+        "./hello.py"
+        '''
       }
     }
     stage("test"){
