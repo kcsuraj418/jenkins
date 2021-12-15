@@ -1,4 +1,3 @@
-#!/bin/sh
 #!/usr/bin/python3
 pipeline{
 agent any
